@@ -35,7 +35,7 @@ repositories {
 dependencies {
     implementation(name: 'm3839_fcm', ext: 'aar')
     debugImplementation(name:'godot-lib.debug',ext:'aar')
-    releaseImplementation(name:'godot-lib.debug',ext:'aar')
+    //releaseImplementation(name:'godot-lib.release',ext:'aar')
    /* implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'*/
     testImplementation 'junit:junit:4.+'
