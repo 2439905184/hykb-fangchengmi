@@ -1,0 +1,2 @@
+include ':hykb'
+rootProject.name = "hykb"
