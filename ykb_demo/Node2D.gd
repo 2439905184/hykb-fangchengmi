@@ -8,6 +8,7 @@ func _ready():
 func _on_init_pressed():
 	plugin = Engine.get_singleton("Hykb")
 	$sdk.text = "sdk_plugin_object:"+str(plugin)
+	OS.alert(str(plugin))
 	if plugin != null:
 		#从这里传入初始化参数
 		plugin.init(10690)

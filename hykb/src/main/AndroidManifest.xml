@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <application>
         <meta-data
-            android:name="org.godotengine.plugin.v1.PocketPlugin"
+            android:name="org.godotengine.plugin.v1.Hykb"
             android:value="com.littlesandbox.hykb.Hykb" />
     </application>
 </manifest>

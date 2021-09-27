@@ -4,6 +4,9 @@
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_vertical_guides_": [ 865.0 ]
+}
 
 [node name="init" type="Button" parent="."]
 margin_right = 139.0
