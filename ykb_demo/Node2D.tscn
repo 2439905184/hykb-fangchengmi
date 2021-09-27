@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Node2D.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="init" type="Button" parent="."]
+margin_right = 139.0
+margin_bottom = 104.0
+text = "Init"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="sdk" type="Label" parent="."]
+margin_left = 265.0
+margin_top = 26.0
+margin_right = 305.0
+margin_bottom = 40.0
+text = "sdk_plugin_object:null"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="init" to="." method="_on_init_pressed"]
